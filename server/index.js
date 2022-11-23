@@ -18,7 +18,9 @@ app.use(authRouter);
 app.use(documentRouter);
 
 const DB =
-  "mongodb+srv://rivaan:test123@cluster0.59lf3ru.mongodb.net/?retryWrites=true&w=majority";
+  //"mongodb+srv://rivaan:test123@cluster0.59lf3ru.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://jj:u7zJcX4LU4vFes0Y@cluster0.8fy0ubk.mongodb.net/?retryWrites=true&w=majority"
+  ;
 
 mongoose
   .connect(DB)
